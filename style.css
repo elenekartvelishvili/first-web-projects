@@ -1,0 +1,138 @@
+* {
+
+    margin:0;
+    padding:0;
+}
+    
+ 
+.contact {
+ background-color: rgb(67, 58, 58);
+ display:flex;
+ width:100%;
+ height:80px;
+ justify-content: space-between;
+ 
+ 
+ }
+.list {
+    display:flex;
+    gap:15px;
+    list-style: none;
+    margin: 40px;
+}
+.icon {
+    color:rgba(3, 3, 229, 0.692);
+    font-size: 15px;
+}
+ul li {
+    color:white;
+    font-size: 13px;
+}
+ .sidebar {
+  margin:30px;
+  gap:15px;
+
+
+}
+.side {
+    background-color:rgba(3, 3, 229, 0.692);
+    color:white;
+
+     
+}
+header {
+    margin:30px;
+    display:flex;
+    justify-content:space-between;
+    gap:15px;
+    
+}
+
+.logo img {
+   
+width: 170px;
+
+    
+}
+.flex {
+    display: flex;
+    justify-content: center;  
+    gap: 15px;  
+    align-items: center;  
+    width:100%;
+}
+
+.dropdown {
+    display:none;
+    position: absolute;
+    z-index: 4;
+    transition: 3s;
+    
+    
+}
+.dropdown a {
+    text-decoration: none;
+}
+li {
+    position: relative;
+  
+
+}
+li a {
+    text-decoration: none;
+    color:black;
+}
+ li:hover .dropdown {
+ display:block;
+ box-shadow: 5px 5px 5px 5px plum;
+ 
+}
+.style {
+    list-style-type: none;
+}
+.button {
+    background-color: darkblue;
+    border-radius:15%;
+    color:white;
+    height:30px;
+     
+}
+
+.banner {
+    background-image: url('https://scsa.ge/wp-content/uploads/2017/07/wallup-192827-e1500032335439.jpg');
+    background-position: center;
+    background-position: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:350px;
+    position: relative;
+    
+}
+.content {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+    align-items: center;
+    position:absolute;
+    z-index: 3;
+    width:100%;
+   
+}
+.donate {
+    background-color: darkblue;
+    border-radius:15%;
+    color:white;
+    height:30px;
+    width:50px;
+     margin-top: 15px;
+}
+
+.overlay {
+    background-color: whitesmoke;
+    opacity: 0.6;
+    position: absolute;
+    z-index: 2;
+    width:100%;
+    height:100%;
+}
